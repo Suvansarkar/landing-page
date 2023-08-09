@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,100&display=swap');
 * {
     font-family: "Roboto", sans-serif;
     /* border: 1px solid red; */
@@ -60,6 +59,7 @@ a {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
+    line-height: 40px;
 }
 
 .contentsubtext {
@@ -68,9 +68,9 @@ a {
 
 .content {
     flex: 0 1 30%;
-    /* display: flex;
-    flex-direction: column; */
-    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .image {
@@ -84,7 +84,7 @@ a {
 
 .herobutton {
     display: flex;
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 
 .button {
@@ -94,12 +94,14 @@ a {
     padding: 10px 30px;
 }
 
+ /* Information section */
+
 .information {
     color: #1F2937;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 700px;
+    padding-bottom: 100px;
 }
 
 .info-header {
@@ -112,10 +114,11 @@ a {
     display: flex;
     justify-content: center;
     gap: 50px;
+    flex-wrap: wrap;
 }
 
 .info-card {
-    flex: 0 1 215px;
+    flex: 0 1 210px;
 }
 
 .info-card-image {
@@ -123,9 +126,40 @@ a {
     width: 200px;
     border: 5px solid #3882F6;
     border-radius: 15px;
+    margin-bottom: 15px;
 }
 
 .info-card-info {
     font-size: 18px;
     text-align: center;
 }
+
+/* Quote Section */
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 700px; */
+    padding: 150px;
+}
+
+.quote-container {
+    width: 50%;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quote-author {
+    font-weight: bolder;
+    font-size: 24px;
+    text-align: right;
+}
+
+/* Sign up section */
+
