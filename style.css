@@ -92,9 +92,6 @@ a {
     border-radius: 10px;
     text-decoration: none;
     padding: 10px 30px;
-
-    
-    box-sizing: content-box;
 }
 
 .information {
@@ -102,16 +99,33 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 700px;
 }
 
 .info-header {
     font-size: 36px;
     font-weight: 800;
+    margin: 100px auto;
+}
+
+.info-card-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.info-card {
+    flex: 0 1 215px;
 }
 
 .info-card-image {
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     border: 5px solid #3882F6;
     border-radius: 15px;
+}
+
+.info-card-info {
+    font-size: 18px;
+    text-align: center;
 }
