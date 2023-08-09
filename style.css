@@ -213,3 +213,16 @@ a {
 
 /* Footer */
 
+footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    word-spacing: 10px;
+}
+
+span {
+    word-spacing: normal;
+}
